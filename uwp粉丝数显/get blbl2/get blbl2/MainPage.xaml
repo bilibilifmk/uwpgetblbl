@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="get_blbl2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:get_blbl2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Loaded="Grid_Loaded_1">
+        <TextBlock x:Name="timsjk" HorizontalAlignment="Left" Margin="236,384,0,0" Text="时间" TextWrapping="Wrap" VerticalAlignment="Top" Height="62" Width="322" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Height="119" Margin="75,63,0,0" Text="当前粉丝：" TextWrapping="Wrap" VerticalAlignment="Top" Width="446" FontSize="72"/>
+        <TextBlock x:Name="txtfs" HorizontalAlignment="Left" Height="110" Margin="407,63,0,0" Text="正在加载" TextWrapping="Wrap" VerticalAlignment="Top" Width="319" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,164,0,0" Text="视频播放总量：" TextWrapping="Wrap" VerticalAlignment="Top" Height="97" Width="368" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,233,0,0" Text="专栏阅读总量：" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+        <TextBlock x:Name="txtbf" HorizontalAlignment="Left" Margin="407,169,0,0" Text="正在加载" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="301" FontSize="48"/>
+        <TextBlock x:Name="txtzl" HorizontalAlignment="Left" Margin="407,233,0,0" Text="正在加载" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="301" FontSize="48"/>
+        <TextBlock x:Name="txtup" HorizontalAlignment="Left" Margin="121,321,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="516" FontSize="36"/>
+
+    </Grid>
+</Page>
